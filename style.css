@@ -1,0 +1,201 @@
+.todo{
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
+.block{
+   background-color: #234545;
+   width: 270px;
+   height: 300px;
+   text-align: center;
+   border-radius: 30px;
+}
+.h1{
+   color: #fff;
+   font-family: 'Montserrat';
+}
+.input1,.input2{
+   margin: 10px;
+   width: 200px;
+   height: 30px;
+   border: none;
+   outline: none;
+   padding: 4px 10px;
+   border-radius: 5px;
+}
+.createBtn{
+   margin-top: 20px;
+   width: 140px;
+   height: 40px;
+   font-size: 20px;
+   background-color: cadetblue;
+   color: #234545;
+   border: none;
+   border-radius: 10px;
+   outline: none;
+   font-family: 'sans - serif';
+}
+.createBtn:hover{
+   color: #fff;
+}
+
+.main_list{
+   display: flex;
+   background-color: #234545;
+   justify-content: space-around;
+   align-items: center;
+   color: #fff;
+   height: 40px;
+   margin-top: 20px;
+   border-radius: 10px;
+   position: relative;
+}
+.text{
+   font-size: 22px;
+}
+.delBtn{
+   width: 60px;
+   height: 30px;
+   border: none;
+   border-radius: 10px;
+   background-color: cadetblue;
+   color: #fff;
+}
+
+.ball1{
+   position: absolute;
+   width: 50px;
+   height: 50px;
+   background-color: cadetblue;
+   border-radius: 100%;
+   top: 150px;
+   z-index: -5;
+   left: 100px;
+}
+
+.min1{
+   width: 30px;
+   height: 30px;
+   border-radius: 100%;
+   background-color: #234545;
+   position: absolute;
+   top: 10px;
+   left: 10px;
+}
+
+.line1{
+   position: absolute;
+   width: 400px;
+   height: 4px;
+   background-color: cadetblue;
+   top: 174px;
+   left: 150px;
+   z-index: -15;
+}
+
+.ball2{
+   position: absolute;
+   width: 50px;
+   height: 50px;
+   background-color: cadetblue;
+   border-radius: 100%;
+   top: 150px;
+   z-index: -5;
+   right: 100px;
+}
+
+.min2{
+   width: 30px;
+   height: 30px;
+   border-radius: 100%;
+   background-color: #234545;
+   position: absolute;
+   top: 10px;
+   right: 10px;
+}
+
+.line2{
+   position: absolute;
+   width: 400px;
+   height: 4px;
+   background-color: cadetblue;
+   top: 174px;
+   right: 150px;
+   z-index: -15;
+}
+
+.toLine{
+   width: 3px;
+   height: 30px;
+   background-color: cadetblue;
+   border-radius: 1px;
+}
+
+.fon{
+   position: absolute;
+   width: 300px;
+   height: 300px;
+   background-color: aqua;
+   border-top-right-radius: 300px;
+   border-bottom-right-radius: 300px;
+   bottom: 0;
+   left: -150px;
+   z-index: -50;
+   opacity: 0.6;
+}
+
+.fon1{
+   position: absolute;
+   width: 200px;
+   height: 400px;
+   background-color: aquamarine;
+   top: -200px;
+   right: 0;
+   z-index: -50;
+   border-bottom-left-radius: 200px;
+   opacity: 0.8;
+}
+
+.fon2{
+   position: absolute;
+   width: 300px;
+   height: 300px;
+   z-index: -50;
+   background-color: yellowgreen;
+   opacity: 0.5;
+   top: 230px;
+   right: 300px;
+   border-radius: 100%;
+}
+
+.fon3{
+   position: absolute;
+   width: 300px;
+   height: 300px;
+   z-index: -50;
+   background-color: forestgreen;
+   opacity: 0.5;
+   top: -150px;
+   left: 120px;
+   border-radius: 100%;
+}
+
+/* .sap1{
+   position: absolute;
+   top: 200px;
+   left: 124px;
+   width: 4px;
+   height: 160px;
+   background-color: cadetblue;
+   z-index: -20;
+}
+
+.sap2{
+   position: absolute;
+   top: 200px;
+   right: 124px;
+   width: 4px;
+   height: 160px;
+   background-color: cadetblue;
+   z-index: -20;
+} */
